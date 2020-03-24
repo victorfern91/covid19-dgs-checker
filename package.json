@@ -1,0 +1,17 @@
+{
+  "name": "covid19-dgs-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:victorfern91/covid19-dgs-checker.git",
+  "author": "Victor Fernandes <victor.fernandes@talkdesk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^7.1.0",
+    "node-cron": "^2.0.3",
+    "node-notifier": "^6.0.0",
+    "puppeteer": "^2.1.1"
+  },
+  "scripts": {
+    "run": "node checker"
+  }
+}
